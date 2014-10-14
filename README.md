@@ -7,6 +7,9 @@ This Dockerfile is simply start for Gitbucket.
 ##Gitbucket
 - [Gitbucket](https://github.com/takezoe/gitbucket)
 
+##Maintainer
+minanon
+
 ##Source links
 - [Dockerfile](https://github.com/minanon/docker-gitbucket)
 - [Docker registry](https://registry.hub.docker.com/u/minanon/gitbucket/)

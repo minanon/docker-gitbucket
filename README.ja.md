@@ -7,6 +7,9 @@ Gitbucketを簡易起動する構成のDockerfileです。
 ##Gitbucket
 - [Gitbucket](https://github.com/takezoe/gitbucket)
 
+##Maintainer
+minanon
+
 ##ソースリンク
 - [Dockerfile](https://github.com/minanon/docker-gitbucket)
 - [Docker registry](https://registry.hub.docker.com/u/minanon/gitbucket/)
