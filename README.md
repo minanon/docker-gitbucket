@@ -21,7 +21,7 @@ minanon
 ##How to use this image
 You can run this image following command.
 
-    docker run -d --name='gitbucket' -p 8080:8080 -v /opt/docker/data/gitbucket:/opt/gitbucket minanon/gitbucket
+    docker run -d --name gitbucket -p 8080:8080 -v /opt/docker/data/gitbucket:/opt/gitbucket minanon/gitbucket
 
 You can access to Gitbucket server.
 http://localhost:8080

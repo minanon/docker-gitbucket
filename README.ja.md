@@ -22,7 +22,7 @@ minanon
 ##起動方法
 以下のようなコマンドで実行します。
 
-    docker run -d --name='gitbucket' -p 8080:8080 -v /opt/docker/data/gitbucket:/opt/gitbucket minanon/gitbucket
+    docker run -d --name gitbucket -p 8080:8080 -v /opt/docker/data/gitbucket:/opt/gitbucket minanon/gitbucket
 
 起動したら、ブラウザなどでアクセスが可能になります。
 http://localhost:8080
