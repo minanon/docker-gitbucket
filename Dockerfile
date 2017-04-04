@@ -2,10 +2,10 @@ FROM debian:stable
 
 MAINTAINER minanon
 
-ENV GITBUCKET_VERSION 2.4.1
+ENV GITBUCKET_VERSION 4.11
 
-# jre1.7.0_67
-ADD http://javadl.sun.com/webapps/download/AutoDL?BundleId=95116 /opt/java.tar.gz
+# jre-8u121
+ADD http://javadl.oracle.com/webapps/download/AutoDL?BundleId=218823_e9e7ea248e2c4826b92b3f075a80e441 /opt/java.tar.gz
 
 RUN cd /opt \
     && gzip -d java.tar.gz \
@@ -14,7 +14,7 @@ RUN cd /opt \
     && rm -f java.tar \
     && mkdir /opt/gitbucket
 
-ADD https://github.com/takezoe/gitbucket/releases/download/2.4.1/gitbucket.war /usr/local/bin/gitbucket.war
+ADD https://github.com/takezoe/gitbucket/releases/download/$GITBUCKET_VERSION/gitbucket.war /usr/local/bin/gitbucket.war
 
 EXPOSE 8080
 
