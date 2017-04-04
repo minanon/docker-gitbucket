@@ -1,24 +1,24 @@
-#docker-gitbucket
+# docker-gitbucket
 Gitbucket on Docker
 
-##Introduction
+## Introduction
 This Dockerfile is simply start for Gitbucket.
 
-##Gitbucket
+## Gitbucket
 - [Gitbucket](https://github.com/takezoe/gitbucket)
 
-##Maintainer
+## Maintainer
 minanon
 
-##Source links
+## Source links
 - [Dockerfile](https://github.com/minanon/docker-gitbucket)
 - [Docker registry](https://registry.hub.docker.com/u/minanon/gitbucket/)
 
-##Information for access from external
+## Information for access from external
 - It use 8080 port number
 - It save data to /opt/gitbucket
 
-##How to use this image
+## How to use this image
 You can run this image following command.
 
     docker run -d --name gitbucket -p 8080:8080 -v /opt/docker/data/gitbucket:/opt/gitbucket minanon/gitbucket
